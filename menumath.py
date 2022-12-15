@@ -1,13 +1,13 @@
 from colorama import init, Fore, Back
 import matem, time, _inicio
 
-print(Fore.GREEN + '\nBem vindo ao Programa\n')
-
 def menumath():
 
-    print(Back.RED + Fore.WHITE + '*-*-*  MENU MATEMÁTICO  *-*-*\n')
-    print(Back.RESET + Fore.YELLOW + '[1] - Bhaskara')
+    print(Back.RED + Fore.WHITE + '*-*-*  MENU MATEMÁTICO  *-*-*\n'+ Back.RESET )
+    print(Fore.YELLOW + '[1] - Bhaskara')
     print(Fore.YELLOW + '[2] - Fibonacci')
+    print(Fore.YELLOW + '[3] - Formas Geométricas')
+
     print(Fore.YELLOW + '[99] - RETORNAR AO MENU PRINCIPAL\n')
     
     entrada = int(input(Fore.CYAN + 'Digite qual opção você deseja: '))
